@@ -8,8 +8,8 @@ import pandas as pd
 import joblib
 import openai
 
-with open("openai.txt", "r") as file: 
-    key = file.readline().strip()
+
+api_key = st.secrets["OPENAI_API_KEY"]
 
 client = openai.OpenAI(api_key= key)
 
