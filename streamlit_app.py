@@ -11,7 +11,7 @@ import openai
 
 api_key = st.secrets["OPENAI_API_KEY"]
 
-client = openai.OpenAI(api_key= key)
+client = openai.OpenAI(api_key=api_key)
 
 GPTmodel = "gpt-4.1-mini-2025-04-14" 
 
